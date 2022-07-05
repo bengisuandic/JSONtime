@@ -1,0 +1,78 @@
+{
+    "name": "Bengisu",
+    "surname": "Andic",
+    "bornIn": "2001 Nov",
+    "age": 20,
+    "goesBy": "Bengi",
+    "currSchool": "Sabanci Uni",
+    "alive": true,
+    
+    "hobbies": [
+        {
+            "hobbyName": "violin",
+            "doneFor": 5,
+            "onGoing": false
+        },
+        {
+            "hobbyName": "video games",
+            "doneFor": 3,
+            "onGoing": true
+        },
+        {
+            "hobbyName": "reading",
+            "doneFor": 10,
+            "onGoing": true
+        },
+        {
+            "hobbyName": "drawing",
+            "doneFor": 1,
+            "onGoing": true
+        }
+    ],
+
+    "family": [
+        {
+            "relation": "sister",
+            "name": "Merve",
+            "alive": true
+        },
+        {
+            "relation": "mother",
+            "name": "Aysegul",
+            "alive": true
+        },
+        {
+            "relation": "father",
+            "name": "Mehmet",
+            "alive": true
+        }
+    ],
+
+    "hates": [
+        {
+            "id": 1,
+            "data": "animal abusers"
+        },
+        {
+            "id": 2,
+            "data": "arrogant people"
+        },
+        {
+            "id": 3,
+            "data": "viruses"
+        },
+        {
+            "id": 4,
+            "data": "dentists"
+        }
+    ],
+
+    "lastNearDeathExperience": {
+        "happened": false,
+        "place": null,
+        "time": null,
+        "explanation": "not that i remember of"
+        
+    }
+
+}
