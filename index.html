@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <style>
-            .smallDiv{
-                max-width: 150px;
-            }
-        </style>
-    </head>
-    
-    <body>
-        <h1>Head yo</h1>
+  <head>
+    <link rel="stylesheet" href="resources/css/normal.css" />
+    <link rel="stylesheet" href="resources/css/index.css" />
+  </head>
 
-        <p>Inline elements <a href="/">Be like this</a></p>
-        <div>
-            <p>
-                Block element
-            </p>
-        </div>
-        <div>
-            <p>
-                thank you
-            </p>
-        </div>
-        <div class="smallDiv">
-            No paragraph
-        </div>
-        <div class="smallDiv">
-            No paragraph
-        </div>
+  <body>
+    <div class="main">
+      <h1>Try Flex and Stuff</h1>
 
-    </body>
+      <div class="bigDiv">
+        <h3>Block inside block</h3>
+        <div class="smallDiv bb">Hello</div>
+        <div class="smallDiv bb">There</div>
+      </div>
+
+      <div class="bigDiv">
+        <h3>Inline inside block</h3>
+        <div class="b">
+          <div class="smallDiv bi">Hello</div>
+          <div class="smallDiv bi">There</div>
+          <div class="smallDiv bi">How</div>
+          <div class="smallDiv bi">You</div>
+          <div class="smallDiv bi">Doin</div>
+          <div class="smallDiv bi">?</div>
+        </div>
+      </div>
+
+      <!-- This a block -->
+      <div class="bigDiv">
+        <h3>Inline inside inline inside...block??</h3>
+
+        <div class="bii">
+          <!-- This is inline -->
+          <div class="smallDiv i">
+            <!-- This is inline inside inline?? -->
+            <div class="smallDiv ii">I</div>
+            <div class="smallDiv ii">Was</div>
+            <div class="smallDiv ii">Here</div>
+          </div>
+          <div class="smallDiv i">
+            <div class="smallDiv ii">Not</div>
+            <div class="smallDiv ii">Now</div>
+            <div class="smallDiv ii">Tho</div>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+  </body>
 </html>
